@@ -93,18 +93,14 @@ body * {
   color: #d4a19988;
 }
 
-.btn-login {
-  width: 100%;
-  padding: 16px 0px;
-  margin: 20px;
-  border: none;
-  border-radius: 7px;
-  text-transform: uppercase;
-  font-weight: 800;
-  color: #f8f8f8;
+.btn-outline-primary {
+  border-color: #ab4467;
+  color: #ab4467;
+}
+.btn-outline-primary:hover {
   background: #ab4467;
-  cursor: pointer;
-  box-shadow: 0px 10px 40px -12px #ab4467;
+  border-color: #ab4467;
+  color: #ffffff;
 }
 
 @media only screen and (max-width: 950px) {
