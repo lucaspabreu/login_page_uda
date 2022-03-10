@@ -9,12 +9,26 @@ body * {
   box-sizing: border-box;
 }
 
+.main-logo {
+  width: 100vw;
+  height: auto;
+  background: #f8eae7;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.logo-uda {
+  width: 50vw;
+  padding: 10px 1px;
+}
+
 .main-login {
   width: 100vw;
   height: 100vh;
   background-color: #86a69f;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -22,9 +36,10 @@ body * {
   width: 50vw;
   height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
+  padding-top: 20px;
 }
 
 .left-login-image {
@@ -41,7 +56,8 @@ body * {
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  padding-top: 20px;
 }
 
 .card-login {
@@ -50,7 +66,7 @@ body * {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 30px 35px;
+  padding: 30px 30px;
   background-color: #f7cdc6;
   border-radius: 20px;
   box-shadow: 0px 10px 40px #556e69;
