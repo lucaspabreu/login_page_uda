@@ -9,15 +9,6 @@ body * {
   box-sizing: border-box;
 }
 
-.main-logo {
-  width: 100vw;
-  height: auto;
-  background: #f8eae7;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-}
-
 .logo-uda {
   width: 30vw;
   padding: 10px 1px;
@@ -26,7 +17,7 @@ body * {
 .main-login {
   width: 100vw;
   height: 100vh;
-  background-color: #86a69f;
+  background: linear-gradient(180deg, #86a69f, #7ccebc);
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -124,6 +115,7 @@ body * {
   background: linear-gradient(267.72deg, #ff8011 100%, #ff9c46d7 5%);
   border-radius: 3px;
   padding: 12px 32px;
+  margin-top: 15px;
   text-transform: uppercase;
   -webkit-transform: skewX(-10deg);
   transform: skewX(-10deg);
