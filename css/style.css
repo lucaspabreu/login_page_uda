@@ -19,7 +19,7 @@ body * {
 }
 
 .logo-uda {
-  width: 50vw;
+  width: 30vw;
   padding: 10px 1px;
 }
 
@@ -29,14 +29,14 @@ body * {
   background-color: #86a69f;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .left-login {
   width: 50vw;
   height: 100vh;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   padding-top: 20px;
@@ -56,7 +56,7 @@ body * {
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   padding-top: 20px;
 }
 
@@ -117,6 +117,91 @@ body * {
   background: #ab4467;
   border-color: #ab4467;
   color: #ffffff;
+}
+
+.btn1 {
+  display: inline-block;
+  background: linear-gradient(267.72deg, #ff8011 100%, #ff9c46d7 5%);
+  border-radius: 3px;
+  padding: 12px 32px;
+  text-transform: uppercase;
+  -webkit-transform: skewX(-10deg);
+  transform: skewX(-10deg);
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
+  position: relative;
+}
+
+.btn1:hover {
+  transform: scale(1.05) skewX(-10deg);
+  color: #e2e8ce;
+}
+
+a {
+  text-decoration: none;
+  color: #e2e8ce;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn1::before {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: -2px;
+  right: -2px;
+  border-radius: 3px;
+  opacity: 0;
+  width: 20%;
+  height: 70%;
+  z-index: -1;
+  border-bottom: 3px solid #acbfa4;
+  border-right: 3px solid #acbfa4;
+  transition: 0.7s ease;
+}
+.btn1::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: -2px;
+  left: -2px;
+  border-radius: 3px;
+  opacity: 0;
+  width: 20%;
+  height: 70%;
+  z-index: -1;
+  border-top: 3px solid #acbfa4;
+  border-left: 3px solid #acbfa4;
+  transition: 0.7s ease;
+}
+.btn1:hover::before {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: -2px;
+  right: -2px;
+  border-radius: 3px;
+  opacity: 1;
+  width: 20%;
+  height: 70%;
+  z-index: -1;
+  border-bottom: 3px solid #ab4467;
+  border-right: 3px solid #ab4467;
+  transition: 0.7s ease;
+}
+.btn1:hover::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: -2px;
+  left: -2px;
+  border-radius: 3px;
+  opacity: 1;
+  width: 20%;
+  height: 70%;
+  z-index: -1;
+  border-top: 3px solid #ab4467;
+  border-left: 3px solid #ab4467;
+  transition: 0.7s ease;
 }
 
 @media only screen and (max-width: 950px) {
